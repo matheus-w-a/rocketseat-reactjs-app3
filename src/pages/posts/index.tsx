@@ -12,7 +12,6 @@ type Post = {
   excerpt: string;
   updatedAt: string;
 }
-
 interface PostProps {
   posts: Post[]
 }

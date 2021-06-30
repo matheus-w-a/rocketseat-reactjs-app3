@@ -39,7 +39,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
           q.Ref(q.Collection('users'), user.ref.id),
           {
             data: {
-              stripe_custumer_id: stripeCustomer.id //add o id do stripe no fauna
+              stripe_customer_id: stripeCustomer.id //add o id do stripe no fauna
             }
           }
         )
@@ -53,7 +53,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       payment_method_types: ['card'], //acc só card
       billing_address_collection: 'required', //obriga a colocar o endereço
       line_items: [ //quais são os itens
-        { price: 'price_1IscGdGnYTGoP9s0AgIczhHl', quantity: 1 }, //só tem 1 
+        { price: 'price_1J7RqKEEOrYiBlEAMVX5baYk', quantity: 1 }, //só tem 1 
       ],
       mode: 'subscription', //pagamento mensal
       allow_promotion_codes: true, //permite que usuarios usem cupons de codigo
