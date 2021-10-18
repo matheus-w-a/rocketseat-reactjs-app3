@@ -22,6 +22,11 @@ Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 - Prismic CMS
 - SASS
 
+## ✨ Bonus feature: Deploy na Vercel
+  Acesse agora mesmo essa aplicação! [site: ignews](https://ignews-matheus-w-a.vercel.app)
+ 
+- A melhor maneira para colocar uma aplicação Next.js em produção é usar a plataforma da [Vercel](https://vercel.com/), criadores do próprio Next.js. A Vercel é uma plataforma de hospedagem para sites estáticos, aplicativos híbridos e funções serveless.
+
 ## 🚀 Como executar
 - Clone o repositório
 - Instale as dependências com ```yarn```
