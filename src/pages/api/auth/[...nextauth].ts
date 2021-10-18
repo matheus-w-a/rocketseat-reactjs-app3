@@ -65,7 +65,7 @@ export default NextAuth({
               q.Exists( //existir
                 q.Match( // (match == where)
                   q.Index('user_by_email'), // nessa lista
-                  q.Casefold(user.email) // um usuario com esse email (casefold - transforma tudo em lowercase - minuscula)
+                  q.Casefold(user.email) // um usuario com esse email (casefold - transforma tudo em lowercase)
                 )
               )
             ),
