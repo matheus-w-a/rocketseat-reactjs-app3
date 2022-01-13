@@ -1,5 +1,6 @@
-# ignews - Next.js
-![2021-10-18 09 38 27 localhost 7b1de49c43b2](https://user-images.githubusercontent.com/71939413/137733606-8efd900a-f8c7-44f8-89be-9d530364e3ac.jpg)
+# 👨‍💻 ignews - ReactJS & Next.js 
+<img src="https://user-images.githubusercontent.com/71939413/149342355-4bef0879-199d-4670-a168-f4720e8ad550.gif" with="90%"/>
+
 ## 📖 Sobre o projeto
 O projeto ignews é um blog onde os usuários podem ter acesso ao conteúdo de cada postagem de acordo com o status de sua assinatura.
 - O blog possui um sistema de assinatura integrado com o STRIPE, e após o usuário realizar o pagamento, sua inscrição estará ativa e pronta para visualizar o conteúdo completo de todo o blog. Caso o usuário não deseje optar pela assinatura, ele terá acesso apenas a um preview das postagens. 
