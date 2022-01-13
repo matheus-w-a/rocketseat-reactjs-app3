@@ -31,5 +31,5 @@ Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 ## 🚀 Como executar
 - Clone o repositório
 - Instale as dependências com ```yarn```
-- Inicie o servidor com ```yarn start```
+- Inicie o servidor com ```yarn dev```
 - Agora é só você acessar http://localhost:3000 do seu navegador.
